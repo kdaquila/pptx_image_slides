@@ -45,3 +45,6 @@ slide_width_inch: the width of the slide in inches
 
 extensions: a list of image extensions strings like ['.png', '.jpg']
 ```
+# Dependencies
+The only dependency is the python package: python-pptx (https://python-pptx.readthedocs.io/en/latest/)
+
