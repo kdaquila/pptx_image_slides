@@ -84,9 +84,7 @@ def create_slides(img_folder_path, pptx_path, slide_height_inch=7.5, slide_width
     :return: None
     """
     # Validate the image folder path
-    try:
-        os.listdir(img_folder_path)
-    except FileNotFoundError:
+    if not os.path.isdir(img_folder_path):
         print('Cannot proceed because the image folder path is invalid')
         return
 
